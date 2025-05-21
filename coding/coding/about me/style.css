@@ -1,0 +1,123 @@
+body {
+    background-image: url(7618808.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    background-color: transparent;
+    position: relative;
+    padding: 23px 0; /* uniform vertical padding */
+    text-align: center;
+}
+
+.nav-box {
+    display: inline-flex;
+    gap: 20px;
+    padding: 10px 20px; /* reduced padding to make it smaller */
+    background-color: #ffffffcc; /* light and soft */
+    border-radius: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+}
+
+.nav-box a {
+    text-decoration: none;
+    background-color: #b5b6bf;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.nav-box a:hover {
+    background-color: #999999; /* changed pink hover to a soft gray */
+    color: white;
+}
+
+#header a {
+    color: black;
+    text-shadow: 1px 1px 2px black;
+    position: relative;
+}
+
+#body {
+    display: block;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#body .text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+#body .text li {
+    color: white; /* white color for list items */
+    margin-bottom: 8px; /* a little space between list items */
+}
+
+#body .text img {
+    float: right;
+    margin: 0 20px 20px 0;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#contact-box {
+    background-color: #ffffffcc; /* light transparent */
+    max-width: 900px;
+    margin: 20px auto 60px;  /* smaller top margin */
+    padding: 20px 30px;      /* reduced padding */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    backdrop-filter: blur(8px);
+}
+
+#contact-box h2 {
+    color: #666666;  /* gray */
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+#contact-box p {
+    font-size: 17px;
+    margin-bottom: 18px;
+    color: #666666;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.social-icon svg {
+    fill: gray;
+    transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover svg {
+    transform: scale(1.25); /* slightly bigger scale on hover */
+    fill: #555555;
+    filter: drop-shadow(0 0 5px #888888);
+}
+
+li {
+    color: white; /* ensure all lists are white */
+}
